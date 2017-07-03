@@ -1,0 +1,8 @@
+language: go
+go_import_path: gangleri.io/pkg/humanbytes
+go:
+  - 1.8.3
+  - tip
+
+script:
+  - go test -v ./...
