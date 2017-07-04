@@ -1,4 +1,7 @@
-# Human readable bytes [![Build Status](https://travis-ci.org/gangleri/humanbytes.svg?branch=master)](https://travis-ci.org/gangleri/humanbytes)
+# Human readable bytes 
+[![Build Status](https://travis-ci.org/gangleri/humanbytes.svg?branch=master)](https://travis-ci.org/gangleri/humanbytes)
+[![Report card](https://goreportcard.com/badge/gangleri.io/pkg/humanbytes)](https://goreportcard.com/report/gangleri.io/pkg/humanbytes)
+
 This package is used to convert bytes to and from human readable representations. It can convert a string such as
 '1 MB' into bytes. Convert bytes to another unit eg KB, MB, GB... and also generate a human readable representation of
 the bytes e.g. 1024 would be displayed as '1 KB'.
@@ -30,5 +33,8 @@ kb, err := humanbytes.Convert(1048576, "MB") // 1MB
 ```go
 s, err := humanbytes.Sprint(1024, "KB") // 1KB
 ```
+
+## Licence
+BSD-2-Clause
 
 

@@ -71,4 +71,3 @@ func Sprint(b int, t string) (string, error) {
 	s := strconv.FormatFloat(float64(b)/conversion[t], 'f', -1, 64)
 	return fmt.Sprintf("%s %s", s, t), nil
 }
-

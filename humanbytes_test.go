@@ -114,7 +114,7 @@ func TestConvertKBtoBytesInvalidUnit(t *testing.T) {
 func TestConvertInvalidUnit(t *testing.T) {
 	mb, err := Convert(1, "BM")
 	if mb != 0 || err == nil {
-		t.Error("The unit BM shoudl have caused an error")
+		t.Error("The unit BM should have caused an error")
 		t.Errorf("Received: [%v]", mb)
 	}
 }
@@ -122,7 +122,7 @@ func TestConvertInvalidUnit(t *testing.T) {
 func TestSprintInvalidUnit(t *testing.T) {
 	s, err := Sprint(1024, "BM")
 	if s != "0.0009765625 MB" && err == nil {
-		t.Error("The unit BM shoudl have caused an error")
+		t.Error("The unit BM should have caused an error")
 		t.Errorf("Received: [%s]", s)
 	}
 }
