@@ -1,6 +1,8 @@
 # Human readable bytes 
 [![Build Status](https://travis-ci.org/gangleri/humanbytes.svg?branch=master)](https://travis-ci.org/gangleri/humanbytes)
 [![Report card](https://goreportcard.com/badge/gangleri.io/pkg/humanbytes)](https://goreportcard.com/report/gangleri.io/pkg/humanbytes)
+[![codecov](https://codecov.io/gh/gangleri/humanbytes/branch/master/graph/badge.svg)](https://codecov.io/gh/gangleri/humanbytes)
+[![GoDoc](https://godoc.org/gangleri.io/pkg/humanbytes?status.svg)](http://godoc.org/gangleri.io/pkg/humanbytes)
 
 This package is used to convert bytes to and from human readable representations. It can convert a string such as
 '1 MB' into bytes. Convert bytes to another unit eg KB, MB, GB... and also generate a human readable representation of
